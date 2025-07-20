@@ -6,7 +6,7 @@ import { twMerge } from "tailwind-merge";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 const calistoga = Calistoga({
   subsets: ["latin"],
-  variable: "--font-sans",
+  variable: "--font-serif",
   weight: ["400"],
 })
 
