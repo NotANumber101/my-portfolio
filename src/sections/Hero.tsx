@@ -2,10 +2,11 @@ import memojiImage from "@/assets/images/memoji-computer.png"
 import ArrowDown from "@/assets/icons/arrow-down.svg"
 import Image from "next/image";
 import GrainImage from "@/assets/images/grain.jpg"
+import StarIcon from "@/assets/icons/star.svg"
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+    <div className="py-16 md:py-32 lg:py-48 relative z-0 overflow-x-clip">
       <div className="absolute inset-0 -z-30 opacity-5" style={{
         backgroundImage: `url(${GrainImage.src})`,
       }}></div>
@@ -18,20 +19,22 @@ export const HeroSection = () => {
         <div className="flex flex-col items-center">
           <Image
             src={memojiImage}
-            className="size-[100px]"
+            className="size-[200px]"
             alt="Person peeking from behind laptop"
           />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
             <div className="bg-green-500 size-2.5 rounded-full"></div>
-            <div className="text-sm font-medium">Available for new projects</div>
+            <div className="text-sm font-medium">Actively Seeking Developer Role</div>
           </div>
         </div>
 
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Exceptional User Experiences
+            Full-Stack Developer Passionate About Building
           </h1>
-          <p className="mt-4 text-center text-white/60 md:text-lg">I specialize in full stack web development</p>
+          <p className="mt-4 text-center text-white/60 md:text-lg">
+            I build responsive, user-focused web applications that scale. I am currently seeking a full-time opportunity where I can contribute to meaningful projects, grow as a developer, and deliver real impact.
+          </p>
         </div>
 
 
