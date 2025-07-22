@@ -10,12 +10,18 @@ export const HeroSection = () => {
       <div className="absolute inset-0 -z-30 opacity-5" style={{
         backgroundImage: `url(${GrainImage.src})`,
       }}></div>
+
       <div className="size-[620px] hero-ring"></div>
       <div className="size-[820px] hero-ring"></div>
       <div className="size-[1020px] hero-ring"></div>
       <div className="size-[1220px] hero-ring"></div>
-      <div className="container">
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 border border-red-500">
+        <div>
+          <StarIcon className="size-28 text-emerald-500" />
+        </div>
+      </div>
 
+      <div className="container">
         <div className="flex flex-col items-center">
           <Image
             src={memojiImage}
